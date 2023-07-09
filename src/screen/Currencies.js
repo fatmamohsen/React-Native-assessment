@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, {useEffect, useState} from 'react';
-import {RefreshControl, StyleSheet, Text, View} from 'react-native';
-import {FlatList} from 'react-native-gesture-handler';
+import {RefreshControl, StyleSheet, Text, View, FlatList} from 'react-native';
 
 const Item = ({item}) => {
   return (
@@ -22,7 +21,6 @@ export const CurrenciesScreen = () => {
           currency,
           rate,
         }));
-        console.log(ratesArray);
         setCurrencies(ratesArray);
       })
       .catch(error => {

@@ -1,3 +1,4 @@
+// this screen does not complete yet
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {LineChart} from 'react-native-charts-wrapper';
