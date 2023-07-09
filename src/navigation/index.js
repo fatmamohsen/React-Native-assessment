@@ -1,6 +1,6 @@
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {Home} from '../screen/Home';
+import {MyPermission} from '../screen/PermissionScreen';
 import {Charts} from '../screen/Charts';
 import {NavigationContainer} from '@react-navigation/native';
 
@@ -11,9 +11,9 @@ export const MyDrawer = () => {
     <NavigationContainer>
       <Drawer.Navigator useLegacyImplementation={false}>
         <Drawer.Screen
-          name="Home"
-          component={Home}
-          options={{drawerLabel: 'Home'}}
+          name="My Permission"
+          component={MyPermission}
+          options={{drawerLabel: 'MyPermission'}}
         />
         <Drawer.Screen
           name="Charts"
