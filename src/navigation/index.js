@@ -3,6 +3,7 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 import {MyPermission} from '../screen/PermissionScreen';
 import {Charts} from '../screen/Charts';
 import {NavigationContainer} from '@react-navigation/native';
+import {CurrenciesScreen} from '../screen/Currencies';
 
 const Drawer = createDrawerNavigator();
 
@@ -14,6 +15,11 @@ export const MyDrawer = () => {
           name="My Permission"
           component={MyPermission}
           options={{drawerLabel: 'MyPermission'}}
+        />
+        <Drawer.Screen
+          name="Currencies"
+          component={CurrenciesScreen}
+          options={{drawerLabel: 'Currencies'}}
         />
         <Drawer.Screen
           name="Charts"
