@@ -463,6 +463,8 @@ PODS:
   - RNScreens (3.22.1):
     - React-Core
     - React-RCTImage
+  - RNSVG (13.10.0):
+    - React-Core
   - SocketRocket (0.6.1)
   - SwiftAlgorithms (1.0.0)
   - SwiftyJSON (5.0.0)
@@ -535,6 +537,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -637,6 +640,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -694,6 +699,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: dec4645026e7401a0899f2846d864403478ff6a5
   RNReanimated: 7f3980ecde0f598ed9cb6a1c15eaca761fc7199f
   RNScreens: 50ffe2fa2342eabb2d0afbe19f7c1af286bc7fb3
+  RNSVG: 80584470ff1ffc7994923ea135a3e5ad825546b9
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
