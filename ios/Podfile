@@ -44,8 +44,10 @@ target 'ReactNativeAssessment' do
   )
 
   target 'ReactNativeAssessmentTests' do
+    config = use_native_modules!
     inherit! :complete
     # Pods for testing
+    pod 'RNCPicker', :path => '../node_modules/@react-native-picker/picker'
   end
 
   post_install do |installer|
